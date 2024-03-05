@@ -1,9 +1,9 @@
 export const Brand = {
-  add: 'mall/pms/task/add',
-  delete: 'mall/pms/task/delete',
-  update: 'mall/pms/task/update',
-  info: 'mall/pms/task/info',
-  page: 'mall/pms/task/page',
+  add: 'mall/pms/brand/add',
+  delete: 'mall/pms/brand/delete',
+  update: 'mall/pms/brand/update',
+  info: 'mall/pms/brand/info',
+  page: 'mall/pms/brand/page',
 } as const;
 
 export const values = Object.values(Brand);
